@@ -8,6 +8,7 @@
 char **tokenize(char *line)
 {
 	char *token;
+	char **tokens;
 	int i = 0;
 
 	tokens = malloc(sizeof(char *) * 3);
